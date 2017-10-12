@@ -44,6 +44,20 @@ Les balises de type "block" occupent tout l'espace disponible en largeur.
 
 Les balises de type "inline" occupent un espace équivalent à la taille de leur contenu.
 
+## ressources
+
+- [HTML element reference - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [CSS reference - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [Ready to check - Nu Html Checker](https://validator.w3.org/nu/)
+- [Service de validation CSS du W3C](https://jigsaw.w3.org/css-validator/)
+- [Bootstrap · The world's most popular mobile-first and responsive front-end framework.](https://getbootstrap.com/docs/3.3/)
+- [Beautiful Free Images | Unsplash](https://unsplash.com/)
+- [iconmonstr - Free simple icons for your next project](https://iconmonstr.com/)
+- [Font Awesome, the iconic font and CSS toolkit](http://fontawesome.io/)
+- [Free Fonts! Legit Free & Quality » Font Squirrel](https://www.fontsquirrel.com/)
+- [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
+- [Google Fonts](https://fonts.google.com/)
+
 ## credits
 
 - file: XIqCQx02E1U9W.gif

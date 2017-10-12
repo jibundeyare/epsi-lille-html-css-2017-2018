@@ -1,0 +1,27 @@
+p {
+  color: #333333;
+  background-color: pink;
+}
+
+#myP {
+  font-family: helvetica arial sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.blueBg {
+  background-color: lightblue;
+}
+
+h1 {
+  background-color: lightyellow;
+  display: inline;
+}
+
+span {
+  background-color: lightyellow;
+  display: block;
+}
