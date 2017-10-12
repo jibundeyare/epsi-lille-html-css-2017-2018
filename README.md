@@ -16,7 +16,9 @@ Avec Linux :
 - PHP
 
 A = Apache
+
 M = MySql
+
 P = PHP
 
 ## install
@@ -37,3 +39,12 @@ Lancer un serveur web visible sur le réseau :
 ## doc
 
 Le fichier `index.html` est renvoyé par défaut par le serveur web.
+
+Les balises de type "block" occupent tout l'espace disponible en largeur.
+
+Les balises de type "inline" occupent un espace équivalent à la taille de leur contenu.
+
+## credits
+
+- file: XIqCQx02E1U9W.gif
+  source: [Gif GIFs - Find & Share on GIPHY](https://giphy.com/gifs/XIqCQx02E1U9W)
