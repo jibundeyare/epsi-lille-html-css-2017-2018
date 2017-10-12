@@ -10,6 +10,11 @@ Avec Windows :
 Avec Mac OS :
 - MAMP
 
+Avec Linux :
+- Apache
+- MySql
+- PHP
+
 A = Apache
 M = MySql
 P = PHP
