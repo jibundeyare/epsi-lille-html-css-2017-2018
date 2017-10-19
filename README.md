@@ -2,24 +2,29 @@
 
 ## pré-requis
 
+Avec tous les OS :
+- git ([git-scm.com](http://git-scm.com/))
+- nodejs & npm ([nodejs.org](http://nodejs.org/))
+- bower ([bower.io](http://bower.io/))
+- ruby ([ruby-lang.org](http://ruby-lang.org/))
+- sass ([sass-lang.com](http://sass-lang.com/))
+
 Avec Windows :
-- WAMP
-- Easy Php
-- MAMP
+- WAMP ([wampserver.com](http://wampserver.com/))
+- Easy Php ([www.easyphp.org](http://www.easyphp.org/))
+- MAMP ([mamp.info](http://mamp.info/))
 
 Avec Mac OS :
-- MAMP
+- MAMP ([mamp.info](http://mamp.info/))
 
 Avec Linux :
-- Apache
-- MySql
-- PHP
+- Apache *
+- MySql *
+- PHP *
 
-A = Apache
+Avec Linux, utilisez votre gestionnaire de paquet pour installer les applications.
 
-M = MySql
-
-P = PHP
+A = Apache, M = MySql, P = PHP
 
 ## install
 
@@ -28,7 +33,11 @@ P = PHP
 
 ## server
 
-Lancer un serveur web en local uniquement :
+Si ce n'est pas déjà fait, ouvrir un terminal et se rendre dans le dossier de travail. Par exemple :
+
+    cd cours/epsi-lille-html-css-2017-2018
+
+Lancer un serveur web visible localement seulement :
 
     php -S localhost:8000
 
@@ -38,11 +47,43 @@ Lancer un serveur web visible sur le réseau :
 
 ## doc
 
-Le fichier `index.html` est renvoyé par défaut par le serveur web.
+### serveur web
+
+Si le client http (le navigateur), ne demande aucun fichier particulier, le serveur web renvoie le fichier `index.html` par défaut.
+
+### css
 
 Les balises de type "block" occupent tout l'espace disponible en largeur.
 
 Les balises de type "inline" occupent un espace équivalent à la taille de leur contenu.
+
+### sass
+
+Transpiler un fichier sass en feuille de style :
+
+    sass sass/blog.sass css/blog.css
+
+Surveiller et créer automatiquement la feuille de style :
+
+    sass --watch sass:css
+
+Surveiller et créer automatiquement une version compressée de la feuille de style :
+
+    sass --watch --style compressed sass:css
+
+## bower
+
+Démarrer un nouveau projet :
+
+    bower init
+
+Répondez bien `y` à la question suivante :
+
+    ? would you like to mark this package as private which prevents it from being accidentally published to the registry? Yes
+
+Installer bootstrap :
+
+    bower install -S bootstrap
 
 ## ressources
 
@@ -57,6 +98,9 @@ Les balises de type "inline" occupent un espace équivalent à la taille de leur
 - [Free Fonts! Legit Free & Quality » Font Squirrel](https://www.fontsquirrel.com/)
 - [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 - [Google Fonts](https://fonts.google.com/)
+- [Bower — a package manager for the web](https://bower.io/)
+- [Sass: Install Sass](http://sass-lang.com/install)
+- [Sass Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 
 ## credits
 

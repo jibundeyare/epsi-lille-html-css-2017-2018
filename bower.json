@@ -1,0 +1,21 @@
+{
+  "name": "epsi-lille-html-css-2017-2018",
+  "homepage": "https://github.com/jibundeyare/epsi-lille-html-css-2017-2018",
+  "authors": [
+    "Daishi Kaszer <daishi.kaszer@yahoo.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
