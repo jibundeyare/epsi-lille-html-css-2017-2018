@@ -1,0 +1,11 @@
+#content {
+  min-height: 300px;
+}
+
+footer {
+  background-color: lightgray;
+}
+
+footer ul {
+  margin-bottom: 0px;
+}

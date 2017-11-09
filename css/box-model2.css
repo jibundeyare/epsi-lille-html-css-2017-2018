@@ -1,0 +1,21 @@
+#box-model-a {
+  background-color: lightblue;
+  border: 3px solid grey;
+  box-sizing: content-box;
+  height: 100px;
+  margin: 10px;
+  overflow: hidden;
+  padding: 10px;
+  width: 100px;
+}
+
+#box-model-b {
+  background-color: pink;
+  border: 3px solid grey;
+  box-sizing: border-box;
+  height: 100px;
+  margin: 10px;
+  overflow: hidden;
+  padding: 10px;
+  width: 100px;
+}

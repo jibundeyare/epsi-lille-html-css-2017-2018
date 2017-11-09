@@ -45,19 +45,21 @@ Lancer un serveur web visible sur le réseau :
 
     php -S 0.0.0.0:8000
 
-## doc
-
-### serveur web
-
 Si le client http (le navigateur), ne demande aucun fichier particulier, le serveur web renvoie le fichier `index.html` par défaut.
 
-### css
+## html
+
+Les entités html servent à afficher du code html. Elles permettent d'afficher les caractères spéciaux du html : `<`, `>`, `"` et `&`.
+
+Les enttités html permettent aussi de protéger un site contre des attaques de type XSS (injection de code js).
+
+## css
 
 Les balises de type "block" occupent tout l'espace disponible en largeur.
 
 Les balises de type "inline" occupent un espace équivalent à la taille de leur contenu.
 
-### sass
+## sass
 
 Transpiler un fichier sass en feuille de style :
 
@@ -85,6 +87,28 @@ Installer bootstrap :
 
     bower install -S bootstrap
 
+## structure du dossier projet
+
+    dossier projet/
+      .sass-cache/
+      bower_components/
+      css/
+        *.css
+        main.css
+      img/
+        *.gif
+        *.jpg
+        *.png
+      js/
+        *.js
+        main.js
+      sass/
+        *.sass
+        main.sass
+      *.html
+      bower.json
+      index.html
+
 ## ressources
 
 - [HTML element reference - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
@@ -101,6 +125,8 @@ Installer bootstrap :
 - [Bower — a package manager for the web](https://bower.io/)
 - [Sass: Install Sass](http://sass-lang.com/install)
 - [Sass Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+- [Character Entity Reference Chart](https://dev.w3.org/html5/html-author/charref)
+- [test htmlentities online - PHP string functions - functions-online](https://www.functions-online.com/htmlentities.html)
 
 ## credits
 
