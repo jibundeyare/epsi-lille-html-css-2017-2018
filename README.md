@@ -127,6 +127,8 @@ Installer bootstrap :
 - [Sass Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 - [Character Entity Reference Chart](https://dev.w3.org/html5/html-author/charref)
 - [test htmlentities online - PHP string functions - functions-online](https://www.functions-online.com/htmlentities.html)
+- [Sticky Footer, Five Ways | CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
+- [Retina Display Media Query | CSS-Tricks](https://css-tricks.com/snippets/css/retina-display-media-query/)
 
 ## credits
 
