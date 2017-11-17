@@ -19,6 +19,18 @@ html, body {
   min-height: 300px;
 }
 
+#logo {
+  min-height: 300px;
+  position: relative;
+}
+
+#logo img {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 footer,
 .push {
   height: 40px;
