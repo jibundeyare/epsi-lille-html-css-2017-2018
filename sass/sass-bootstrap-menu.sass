@@ -1,0 +1,17 @@
+$color-gradient-start: #fff
+$color-gradient-end: lightblue
+$color-item: lightgreen
+
+.navbar-default
+  // gradient du menu bootstrap
+  background-image: linear-gradient(to bottom, $color-gradient-start 0, $color-gradient-end 100%)
+  // couleur d'une entrée du menu
+  .navbar-nav
+    > .active
+      > a,
+      > a:focus,
+      > a:hover
+        background-color: $color-item
+    > .active > a,
+    > .open > a
+      background-image: none

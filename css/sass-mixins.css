@@ -1,0 +1,25 @@
+.image-info-1 {
+  background-color: pink;
+  display: inline-block;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  width: 100%; }
+
+.image-info-2 {
+  background-color: pink;
+  display: inline-block;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  width: 100%; }
+
+.image-info-3 {
+  background-color: pink;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 60px; }
+
+/*# sourceMappingURL=sass-mixins.css.map */

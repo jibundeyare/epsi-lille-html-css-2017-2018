@@ -1,0 +1,11 @@
+.navbar-default {
+  background-image: linear-gradient(to bottom, #fff 0, lightblue 100%); }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover {
+    background-color: lightgreen; }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .open > a {
+    background-image: none; }
+
+/*# sourceMappingURL=sass-bootstrap-menu.css.map */

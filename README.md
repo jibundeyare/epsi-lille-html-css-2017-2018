@@ -129,6 +129,7 @@ Installer bootstrap :
 - [test htmlentities online - PHP string functions - functions-online](https://www.functions-online.com/htmlentities.html)
 - [Sticky Footer, Five Ways | CSS-Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
 - [Retina Display Media Query | CSS-Tricks](https://css-tricks.com/snippets/css/retina-display-media-query/)
+- [CSS values and units - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units)
 
 ## credits
 

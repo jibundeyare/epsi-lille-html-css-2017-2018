@@ -1,0 +1,16 @@
+=image-info($height, $width: 100%)
+  background-color: pink
+  display: inline-block
+  height: $height
+  line-height: $height
+  text-align: center
+  width: $width
+
+.image-info-1
+  +image-info(300px)
+
+.image-info-2
+  +image-info(150px)
+
+.image-info-3
+  +image-info(60px, 60px)
